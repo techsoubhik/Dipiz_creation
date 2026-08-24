@@ -68,3 +68,5 @@
 - [x] Add a truthful owner-only Operations view for private sales reporting, inventory snapshots, and synchronization-readiness states without fabricating Shopify data.
 - [x] Create and apply a transparent-background version of the supplied DIPIZ CREATION logo while preserving the mark unchanged.
 - [x] Upload the current validated DIPIZ CREATION project changes to the selected GitHub repository.
+- [ ] Verify the production build and prepare Vercel deployment configuration so the storefront can be published as a live website.
+- [ ] Diagnose the GitHub source-view confusion, validate the live storefront, and prepare publication guidance for WhatsApp sharing.
