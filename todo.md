@@ -1,0 +1,70 @@
+# Project TODO
+
+- [x] Upload the supplied DIPIZ CREATION logo without altering it and replace temporary wordmarks across the storefront and admin screens.
+- [x] Establish the mobile-first luxury visual system with blush, ivory, rose-gold, white, and charcoal tokens.
+- [x] Build the responsive header, luxury hero, and polished shopping-bag entry point.
+- [x] Build collection discovery and featured art-product browsing cards.
+- [x] Build quick-view product interactions and an accessible bag preview.
+- [x] Build the artisanal story, editorial quote, and newsletter call-to-action sections.
+- [x] Add refined, accessible motion and responsive mobile navigation.
+- [x] Add automated tests for storefront data and user interactions.
+- [x] Verify desktop and smartphone presentation, then save a project checkpoint.
+- [x] Add the requested sticky header navigation with Home, Shop, Collections, Custom Creation, About, search, wishlist, and cart entry points.
+- [x] Reframe the hero around the “Art, Made Personal.” message and the requested primary calls to action.
+- [x] Build dedicated sections for featured collections, best sellers, new arrivals, gifts, custom creation, behind the art, customer-review readiness, and Instagram-style gallery content.
+- [x] Preserve a content-safe customer review section without inventing testimonials or ratings.
+- [x] Revalidate the updated homepage at desktop and smartphone breakpoints.
+- [x] Correct the sticky navigation label to “About” and expose search, wishlist, and cart actions in the mobile menu.
+- [x] Add category-based product discovery for Clay Jewellery, Resin Art, Bottle Art, Personalized Gifts, and Custom Art.
+- [x] Build search, category filters, price filtering, and Newest/Best Selling/Price sorting controls.
+- [x] Expand product cards with premium hover motion, safe ratings states, wishlist, Quick Add, Add to Cart, and Buy Now actions.
+- [x] Build a responsive product-detail view with image gallery, zoom, price, availability, materials, dimensions, care, shipping, and related products.
+- [x] Add unit tests for product filtering, sorting, search, and shopping-bag calculations.
+- [x] Validate shopping interactions and product-detail presentation at desktop and mobile breakpoints.
+- [x] Connect the Buy Now experience to a real checkout handoff instead of a placeholder message.
+- [x] Add component-level interaction tests for product discovery and shopping actions, then revalidate key flows.
+- [x] Register the Shopify commerce router, provider, and environment exports for storefront cart and checkout support.
+- [x] Seed and verify a minimal live Shopify catalog for checkout testing, then route Buy Now through the Shopify checkout URL.
+- [x] Clearly distinguish checkout-enabled Shopify inventory from made-to-order and commission items across shop and product-detail actions.
+- [x] Revalidate the Buy Now flow and product-detail actions after aligning checkout eligibility.
+- [x] Make Custom Creation a prominent, premium commission feature with the “Made Just For You.” story and the requested custom categories.
+- [x] Build the emotional Idea → Design → Handmade → Delivered process narrative.
+- [x] Build an accessible multi-step custom order form covering contact details, occasion, product direction, budget, date, reference upload, and message.
+- [x] Add interaction tests for custom order form progression and required validation.
+- [x] Validate the Custom Creation feature at desktop and mobile breakpoints.
+- [x] Persist submitted custom-order details and provide an explicit confirmation handoff for the studio.
+- [x] Upload and store the optional custom reference image securely with the custom order.
+- [x] Expand custom-order tests through final submission, reference selection, required-step validation, and success confirmation.
+- [x] Notify the project owner when a custom-order submission is persisted, creating a usable studio handoff.
+- [x] Add server-side tests for custom-order persistence, stored reference metadata, and notification handoff.
+- [x] Add later-step validation coverage for missing product selection and the final message.
+- [x] Add a premium trust center with customer-review readiness, verified-purchase treatment, secure-checkout assurance, shipping details, FAQ, returns, and order tracking.
+- [x] Add direct WhatsApp support, a customer-gallery readiness section, and an Instagram-style handmade studio gallery.
+- [x] Expand the About / Our Story and behind-the-scenes handmade process content without inventing customer testimonials or gallery submissions.
+- [x] Add an uncluttered thumb-friendly mobile bottom navigation for Home, Shop, Wishlist, and Cart.
+- [x] Add tests for trust-center and mobile-navigation interactions, then validate the responsive experience.
+- [x] Persist and notify the studio of order-tracking requests instead of showing only a local confirmation.
+- [x] Add functional Wishlist and Cart sections as mobile bottom-navigation destinations in the shop.
+- [x] Add interaction tests for all mobile bottom-navigation entry points and tracking-request submission.
+- [x] Add click-level tests for Home, Shop, Wishlist, and Cart mobile bottom-navigation destinations, then revalidate the flow.
+- [x] Add browser-level route and hash tests for every mobile bottom-navigation destination, including functional Wishlist and Cart anchors.
+- [x] Add a mounted-app test proving mobile Wishlist and Cart navigation reaches the real shop sections.
+- [x] Choose a secure private-admin access approach and order synchronization model before implementation.
+- [x] Build private admin access with authorization boundaries that keep customer and order data off public routes.
+- [x] Add shared order, order-event, customer, and custom-request data structures for the administration system.
+- [ ] Build responsive dashboard summary, order management, custom requests, product and inventory management, customer summaries, and sales views.
+- [ ] Connect the storefront and Shopify order events to reliable near-real-time admin visibility and owner notifications.
+- [ ] Add private-access, CRUD, order-status, and responsive workflow tests for the administration system.
+- [x] Use owner-only role-gated access and automatic Shopify synchronization with reconciliation as the selected administration architecture.
+- [ ] Claim the Shopify store and provide the secure webhook configuration needed to activate automatic order events and reconciliation.
+- [x] Add usable custom-request notes and order-status workflow controls within the private dashboard.
+- [x] Add live-catalog visibility from the storefront data to the private Products view while preserving the Shopify-claim dependency for editing inventory and prices.
+- [x] Add pending, success, and error feedback for private order-status and custom-note mutations, with controls disabled while updates are running.
+- [x] Add distinct loading, empty, and error states for the private live-catalog query.
+- [x] Add private dashboard interaction coverage for changing an order status through the actual UI.
+- [x] Confirm that the authenticated owner admin view resolves cleanly at the mobile breakpoint after initial authentication loading.
+- [x] Add a mounted-app test proving that the authenticated owner mobile administration dashboard replaces the loading state with private overview content.
+- [x] Add a true App-route test that transitions `/admin` from loading to authenticated private overview content at the mobile breakpoint.
+- [x] Add a truthful owner-only Operations view for private sales reporting, inventory snapshots, and synchronization-readiness states without fabricating Shopify data.
+- [x] Create and apply a transparent-background version of the supplied DIPIZ CREATION logo while preserving the mark unchanged.
+- [ ] Upload the current validated DIPIZ CREATION project changes to the selected GitHub repository.
