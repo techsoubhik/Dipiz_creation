@@ -11,3 +11,5 @@ The tighter compact-crop review confirmed the monogram and name are larger, but 
 The final focused-crop implementation uses a landscape crop for the header and a full circular crop for the hero. Desktop and 390 px mobile screenshots confirm that the header mark is larger and unclipped, while the hero mark is displayed as a circular seal without a square background. Both retain the supplied original artwork rather than a recreated logo.
 
 The final refinement replaces the opaque image crops with true-alpha exports derived from the same supplied artwork. This removes the rectangular white photo background while preserving the original rose-gold mark and its lettering.
+
+Final 1280 px desktop and 390 px mobile screenshot verification confirms that the header lockup is transparent and tightly framed, while the hero uses a clear circular DIPIZ seal. The former opaque square behind the hero mark is no longer present.

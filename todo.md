@@ -74,4 +74,4 @@
 - [x] Replace the blurred logo treatment with a customer-supplied sharp transparent asset and remove the unrelated hero logo mark. (Superseded: owner approved enhancement of the supplied original instead.)
 - [x] Create a sharp high-resolution DIPIZ logo from the supplied original and remove the unrelated hero `DC` mark.
 - [x] Create distinct tight-cropped DIPIZ logo exports for the header and hero from the supplied original artwork.
-- [ ] Create and apply clean transparent header and hero crops from the supplied original logo, removing the remaining opaque white background and excess circular border detail.
+- [x] Create and apply clean transparent header and hero crops from the supplied original logo, removing the remaining opaque white background and excess circular border detail.
