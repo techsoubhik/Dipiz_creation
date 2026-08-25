@@ -1,11 +1,11 @@
 /** @vitest-environment jsdom */
 
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { cleanup, render, screen } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 const auth = vi.hoisted(() => ({
-  state: { user: null as { id: number; name: string; role: "admin" } | null, loading: true, isAuthenticated: false },
+  state: { user: null as { id: number; name: string; role: "admin" | "user" } | null, loading: true, isAuthenticated: false },
 }));
 const invalidate = vi.fn();
 
@@ -31,6 +31,7 @@ vi.mock("@/lib/trpc", () => ({
 import App from "./App";
 
 afterEach(() => {
+  cleanup();
   auth.state = { user: null, loading: true, isAuthenticated: false };
 });
 
@@ -51,5 +52,23 @@ describe("mounted /admin route on mobile", () => {
     expect(screen.getAllByText("Overview").length).toBeGreaterThan(0);
     expect(screen.getByText("New and recent orders")).toBeTruthy();
     expect(screen.getByText("Studio inbox")).toBeTruthy();
+  });
+
+  it("shows the private sign-in state to an unauthenticated visitor", () => {
+    auth.state = { user: null, loading: false, isAuthenticated: false };
+    render(<App />);
+
+    expect(screen.getByText("Private studio access")).toBeTruthy();
+    expect(screen.getByRole("button", { name: /secure sign in/i })).toBeTruthy();
+  });
+
+  it("keeps a signed-in non-owner account out of the private workspace", () => {
+    auth.state = { user: { id: 2, name: "Studio Visitor", role: "user" }, loading: false, isAuthenticated: true };
+    render(<App />);
+
+    expect(screen.getByRole("heading")).toBeTruthy();
+    expect(screen.getByText("Access")).toBeTruthy();
+    expect(screen.getByText("restricted.")).toBeTruthy();
+    expect(screen.getByText(/has not been approved for private studio management/i)).toBeTruthy();
   });
 });

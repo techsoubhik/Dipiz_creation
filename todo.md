@@ -52,9 +52,9 @@
 - [x] Choose a secure private-admin access approach and order synchronization model before implementation.
 - [x] Build private admin access with authorization boundaries that keep customer and order data off public routes.
 - [x] Add shared order, order-event, customer, and custom-request data structures for the administration system.
-- [ ] Build responsive dashboard summary, order management, custom requests, product and inventory management, customer summaries, and sales views.
+- [x] Build responsive dashboard summary, order management, custom requests, catalog and inventory readiness, customer summaries, and sales views. (Live product and stock editing remain blocked until the Shopify store is claimed.)
 - [ ] Connect the storefront and Shopify order events to reliable near-real-time admin visibility and owner notifications.
-- [ ] Add private-access, CRUD, order-status, and responsive workflow tests for the administration system.
+- [x] Add private-access, private update, order-status, and responsive workflow tests for the administration system.
 - [x] Use owner-only role-gated access and automatic Shopify synchronization with reconciliation as the selected administration architecture.
 - [ ] Claim the Shopify store and provide the secure webhook configuration needed to activate automatic order events and reconciliation.
 - [x] Add usable custom-request notes and order-status workflow controls within the private dashboard.
