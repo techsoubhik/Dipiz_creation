@@ -30,10 +30,10 @@ a { color: inherit; text-decoration: none; }
 .announcement-bar span { color: var(--rose-gold); }
 .site-header { position: sticky; top: 0; z-index: 40; display: grid; grid-template-columns: 42px 1fr auto; align-items: center; height: 96px; width: 100%; margin: auto; padding: 0 18px; border-bottom: 1px solid rgba(83, 62, 54, .06); background: rgba(248,245,240,.94); backdrop-filter: blur(13px); }
 .logo-link { justify-self: center; }
-.dipiz-brand-logo { display: block; width: 142px; height: 90px; object-fit: contain; object-position: center; mix-blend-mode: multiply; filter: contrast(1.28) saturate(1.12); }
+.dipiz-brand-logo { display: block; width: 142px; height: 90px; object-fit: contain; object-position: center; filter: contrast(1.2) saturate(1.08); }
 .dipiz-brand-logo--home-compact { width: 130px; height: 72px; }
 .dipiz-brand-logo--shop { width: 136px; height: 84px; }
-.dipiz-brand-logo--hero { width: 144px; height: 140px; mix-blend-mode: normal; filter: contrast(1.16) saturate(1.08) drop-shadow(0 8px 16px rgba(75, 51, 43, .14)); }
+.dipiz-brand-logo--hero { width: 144px; height: 140px; filter: contrast(1.12) saturate(1.05) drop-shadow(0 8px 16px rgba(75, 51, 43, .14)); }
 .desktop-nav { display: none; }
 .header-actions { display: flex; justify-content: flex-end; align-items: center; gap: 4px; }
 .icon-button, .bag-button { display: grid; place-items: center; width: 40px; height: 40px; border: 0; background: transparent; color: var(--charcoal); transition: transform 160ms var(--ease-out), background 160ms var(--ease-out); }

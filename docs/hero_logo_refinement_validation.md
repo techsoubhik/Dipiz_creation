@@ -9,3 +9,5 @@ Focused crop review confirms that the square hero crop preserves the full mark a
 The tighter compact-crop review confirmed the monogram and name are larger, but the lower lettering needs a small additional margin to avoid clipping. The final header crop will retain that margin while excluding the low-priority tagline.
 
 The final focused-crop implementation uses a landscape crop for the header and a full circular crop for the hero. Desktop and 390 px mobile screenshots confirm that the header mark is larger and unclipped, while the hero mark is displayed as a circular seal without a square background. Both retain the supplied original artwork rather than a recreated logo.
+
+The final refinement replaces the opaque image crops with true-alpha exports derived from the same supplied artwork. This removes the rectangular white photo background while preserving the original rose-gold mark and its lettering.
