@@ -73,4 +73,4 @@
 - [ ] Redeploy the deployment-safe logo and landing-page image fix to Vercel and verify both assets on the live external URL after deployment access is available.
 - [x] Replace the blurred logo treatment with a customer-supplied sharp transparent asset and remove the unrelated hero logo mark. (Superseded: owner approved enhancement of the supplied original instead.)
 - [x] Create a sharp high-resolution DIPIZ logo from the supplied original and remove the unrelated hero `DC` mark.
-- [ ] Create distinct tight-cropped DIPIZ logo exports for the header and hero from the supplied original artwork.
+- [x] Create distinct tight-cropped DIPIZ logo exports for the header and hero from the supplied original artwork.
