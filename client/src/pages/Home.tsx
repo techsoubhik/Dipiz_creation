@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/sheet";
 import { MobileBottomNav } from "@/components/MobileBottomNav";
 import { BrandLogo } from "@/components/BrandLogo";
+import { DIPIZ_INSTAGRAM_HANDLE, DIPIZ_INSTAGRAM_URL } from "@/lib/socialLinks";
 import { dipizBrandAssets } from "@/lib/brandAssets";
 import { calculateBagTotal, products, type BagItem, type Product } from "@/lib/storefrontData";
 
@@ -236,7 +237,7 @@ export default function Home() {
         </section>
 
         <section className="instagram-section section-shell" aria-labelledby="instagram-title">
-          <div className="instagram-heading"><div><p className="eyebrow"><Instagram size={13} /> Studio on Instagram</p><h2 id="instagram-title">Follow the <em>process.</em></h2></div><a className="text-link" href="#newsletter">@dipizcreation <ArrowRight size={17} /></a></div>
+          <div className="instagram-heading"><div><p className="eyebrow"><Instagram size={13} /> Studio on Instagram</p><h2 id="instagram-title">Follow the <em>process.</em></h2></div><a className="text-link" href={DIPIZ_INSTAGRAM_URL} target="_blank" rel="noreferrer" aria-label={`Open ${DIPIZ_INSTAGRAM_HANDLE} on Instagram`}>{DIPIZ_INSTAGRAM_HANDLE} <ArrowRight size={17} /></a></div>
           <div className="instagram-grid" aria-label="DIPIZ CREATION studio gallery">
             <div className="instagram-tile instagram-tile--one"><ProductArtwork product={products[0]} /></div>
             <div className="instagram-tile instagram-tile--two"><div className="studio-vase" /></div>
@@ -244,6 +245,7 @@ export default function Home() {
             <div className="instagram-tile instagram-tile--four"><div className="studio-paper"><i /><i /><i /></div></div>
             <div className="instagram-tile instagram-tile--five"><ProductArtwork product={products[3]} /></div>
           </div>
+          <a className="instagram-follow" href={DIPIZ_INSTAGRAM_URL} target="_blank" rel="noreferrer"><Instagram size={16} /> Follow {DIPIZ_INSTAGRAM_HANDLE} on Instagram <ArrowRight size={16} /></a>
         </section>
 
         <section id="newsletter" className="newsletter-section">
@@ -265,7 +267,7 @@ export default function Home() {
       <footer className="site-footer section-shell">
         <BrandLogo variant="home-compact" />
         <p>Handmade art &amp; design for more considered everyday living.</p>
-        <div className="footer-links"><a href="/shop">Shop</a><a href="#story">Studio</a><a href="/care">Care</a></div>
+        <div className="footer-links"><a href="/shop">Shop</a><a href="#story">Studio</a><a href="/care">Care</a><a href={DIPIZ_INSTAGRAM_URL} target="_blank" rel="noreferrer">Instagram</a></div>
         <span>© {new Date().getFullYear()} DIPIZ CREATION</span>
       </footer>
 
