@@ -114,7 +114,7 @@ export default function Home() {
               <img src={heroImage} alt="An editorial still life of handmade art materials and ivory ceramic forms" />
             </div>
             <div className="hero-note">Made for slow, beautiful<br />everyday moments</div>
-            <div className="hero-stamp" aria-hidden="true"><span>EST.</span><strong>DC</strong><span>ART &amp; DESIGN</span></div>
+            <div className="hero-brand" aria-label="DIPIZ CREATION brand mark"><BrandLogo variant="hero" /></div>
           </div>
         </section>
 

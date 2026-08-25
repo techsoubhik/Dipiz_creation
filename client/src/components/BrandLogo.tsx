@@ -2,7 +2,7 @@ import React from "react";
 import { dipizBrandAssets } from "@/lib/brandAssets";
 
 type BrandLogoProps = {
-  variant?: "home" | "home-compact" | "shop" | "admin" | "admin-auth";
+  variant?: "home" | "home-compact" | "shop" | "hero" | "admin" | "admin-auth";
 };
 
 const suppliedDipizLogo = dipizBrandAssets.logo;
