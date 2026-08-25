@@ -4,6 +4,7 @@
  * Manus storage-proxy routes at runtime.
  */
 export const dipizBrandAssets = {
-  logo: "https://raw.githubusercontent.com/techsoubhik/Dipiz_creation/main/public/brand/dipiz-creation-logo-hd.png",
+  headerLogo: "https://raw.githubusercontent.com/techsoubhik/Dipiz_creation/main/public/brand/dipiz-creation-logo-header-crop.jpg",
+  heroLogo: "https://raw.githubusercontent.com/techsoubhik/Dipiz_creation/main/public/brand/dipiz-creation-logo-hero-crop.jpg",
   hero: "https://raw.githubusercontent.com/techsoubhik/Dipiz_creation/main/public/brand/dipiz-hero-art.jpg",
 } as const;
