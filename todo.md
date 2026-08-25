@@ -71,5 +71,5 @@
 - [ ] Verify the production build and prepare Vercel deployment configuration so the storefront can be published as a live website.
 - [ ] Diagnose the GitHub source-view confusion, validate the live storefront, and prepare publication guidance for WhatsApp sharing.
 - [ ] Redeploy the deployment-safe logo and landing-page image fix to Vercel and verify both assets on the live external URL after deployment access is available.
-- [ ] Replace the blurred logo treatment with a customer-supplied sharp transparent asset and remove the unrelated hero logo mark.
-- [ ] Create a sharp high-resolution DIPIZ logo from the supplied original and remove the unrelated hero `DC` mark.
+- [x] Replace the blurred logo treatment with a customer-supplied sharp transparent asset and remove the unrelated hero logo mark. (Superseded: owner approved enhancement of the supplied original instead.)
+- [x] Create a sharp high-resolution DIPIZ logo from the supplied original and remove the unrelated hero `DC` mark.
