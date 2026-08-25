@@ -24,6 +24,7 @@ import {
 import { MobileBottomNav } from "@/components/MobileBottomNav";
 import { BrandLogo } from "@/components/BrandLogo";
 import { DIPIZ_INSTAGRAM_HANDLE, DIPIZ_INSTAGRAM_URL } from "@/lib/socialLinks";
+import { DIPIZ_STUDIO_LOCATION } from "@/lib/storefrontContact";
 import { dipizBrandAssets } from "@/lib/brandAssets";
 import { calculateBagTotal, products, type BagItem, type Product } from "@/lib/storefrontData";
 
@@ -267,6 +268,7 @@ export default function Home() {
       <footer className="site-footer section-shell">
         <BrandLogo variant="home-compact" />
         <p>Handmade art &amp; design for more considered everyday living.</p>
+        <p className="studio-location">Studio location: {DIPIZ_STUDIO_LOCATION}</p>
         <div className="footer-links"><a href="/shop">Shop</a><a href="#story">Studio</a><a href="/care">Care</a><a href={DIPIZ_INSTAGRAM_URL} target="_blank" rel="noreferrer">Instagram</a></div>
         <span>© {new Date().getFullYear()} DIPIZ CREATION</span>
       </footer>

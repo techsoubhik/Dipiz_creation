@@ -77,3 +77,4 @@
 - [x] Create and apply clean transparent header and hero crops from the supplied original logo, removing the remaining opaque white background and excess circular border detail.
 - [x] Reduce the landing-page logo seal and use a clean small full-circle DIPIZ logo in the top navigation without clipped arcs.
 - [x] Add the owner-approved official Instagram profile link and content-safe gallery/follow entry points on the homepage and its footer.
+- [x] Add the owner-provided Kolkata, West Bengal 700102 studio location to public contact surfaces without exposing a street-level address.
