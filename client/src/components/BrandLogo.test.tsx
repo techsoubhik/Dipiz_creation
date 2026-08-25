@@ -9,7 +9,7 @@ describe("BrandLogo", () => {
     render(<BrandLogo variant="shop" />);
 
     const logo = screen.getByRole("img", { name: "DIPIZ CREATION — Art and Design" });
-    expect(logo.getAttribute("src")).toBe("/manus-storage/dipiz-creation-logo-transparent_0ece0553.png");
+    expect(logo.getAttribute("src")).toBe("https://raw.githubusercontent.com/techsoubhik/Dipiz_creation/main/public/brand/dipiz-creation-logo-transparent.png");
     expect(logo.classList.contains("dipiz-brand-logo--shop")).toBe(true);
   });
 });

@@ -23,9 +23,10 @@ import {
 } from "@/components/ui/sheet";
 import { MobileBottomNav } from "@/components/MobileBottomNav";
 import { BrandLogo } from "@/components/BrandLogo";
+import { dipizBrandAssets } from "@/lib/brandAssets";
 import { calculateBagTotal, products, type BagItem, type Product } from "@/lib/storefrontData";
 
-const heroImage = "/manus-storage/dipiz-hero-art_ca364656.jpg";
+const heroImage = dipizBrandAssets.hero;
 
 function ProductArtwork({ product }: { product: Product }) {
   return (

@@ -1,10 +1,11 @@
 import React from "react";
+import { dipizBrandAssets } from "@/lib/brandAssets";
 
 type BrandLogoProps = {
   variant?: "home" | "home-compact" | "shop" | "admin" | "admin-auth";
 };
 
-const suppliedDipizLogo = "/manus-storage/dipiz-creation-logo-transparent_0ece0553.png";
+const suppliedDipizLogo = dipizBrandAssets.logo;
 
 /** The supplied customer artwork is preserved with only its original background made transparent. */
 export function BrandLogo({ variant = "home" }: BrandLogoProps) {

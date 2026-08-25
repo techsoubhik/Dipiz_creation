@@ -70,3 +70,4 @@
 - [x] Upload the current validated DIPIZ CREATION project changes to the selected GitHub repository.
 - [ ] Verify the production build and prepare Vercel deployment configuration so the storefront can be published as a live website.
 - [ ] Diagnose the GitHub source-view confusion, validate the live storefront, and prepare publication guidance for WhatsApp sharing.
+- [ ] Fix missing logo and landing-page imagery in the external deployed storefront using deployment-safe asset sources.
