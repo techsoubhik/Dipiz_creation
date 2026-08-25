@@ -5,11 +5,9 @@ type BrandLogoProps = {
   variant?: "home" | "home-compact" | "shop" | "hero" | "admin" | "admin-auth";
 };
 
-/** The compact and hero placements each use a focused crop of the supplied original artwork. */
+/** The navigation and hero both use the complete circular DIPIZ mark for a consistent, unclipped brand treatment. */
 export function BrandLogo({ variant = "home" }: BrandLogoProps) {
-  const suppliedDipizLogo = variant === "hero" || variant === "admin-auth"
-    ? dipizBrandAssets.heroLogo
-    : dipizBrandAssets.headerLogo;
+  const suppliedDipizLogo = dipizBrandAssets.heroLogo;
 
   return (
     <img

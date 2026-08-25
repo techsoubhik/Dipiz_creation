@@ -13,3 +13,5 @@ The final focused-crop implementation uses a landscape crop for the header and a
 The final refinement replaces the opaque image crops with true-alpha exports derived from the same supplied artwork. This removes the rectangular white photo background while preserving the original rose-gold mark and its lettering.
 
 Final 1280 px desktop and 390 px mobile screenshot verification confirms that the header lockup is transparent and tightly framed, while the hero uses a clear circular DIPIZ seal. The former opaque square behind the hero mark is no longer present.
+
+The final proportion refinement uses the complete circular logo in the top navigation at a compact size, removing the prior half-ring appearance. The landing-page seal is reduced to a quieter 114 px treatment. Desktop and 390 px mobile verification confirm that both circular marks are complete, balanced, and unobstructed.
